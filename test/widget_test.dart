@@ -6,7 +6,7 @@ import 'package:sumadora_flutter/main.dart';
 void main() {
   testWidgets('Prueba de suma en MiSumadoraApp', (WidgetTester tester) async {
     // Renderizar la app
-    await tester.pumpWidget(const MiSumadoraApp());
+    await tester.pumpWidget(const MiCalculadoraApp());
 
     // Verificar que existe el título y los campos
     expect(find.text('Sumadora Flutter'), findsWidgets);
