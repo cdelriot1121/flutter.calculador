@@ -102,7 +102,7 @@ class CalculatorView extends StatelessWidget {
                     child: const Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.bolt, color: Colors.amberAccent),
+                        
                         SizedBox(width: 8),
                         Text(
                           'Calcular y Analizar',
