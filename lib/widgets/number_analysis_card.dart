@@ -69,11 +69,14 @@ class NumberAnalysisCard extends StatelessWidget {
           ),
         ),
         const SizedBox(width: 12),
-        Text(
-          title,
-          style: const TextStyle(fontSize: 14, color: Colors.white70, fontWeight: FontWeight.w500),
+        Expanded(
+          child: Text(
+            title,
+            style: const TextStyle(fontSize: 14, color: Colors.white70, fontWeight: FontWeight.w500),
+            overflow: TextOverflow.ellipsis,
+          ),
         ),
-        const Spacer(),
+        const SizedBox(width: 8),
         Text(
           value ? 'Sí' : 'No',
           style: TextStyle(
